@@ -1,0 +1,6 @@
+"BillboardRT"
+{
+	"Name"		"BillboardRT"
+	"Width"		"1024"
+	"Height"	"512"
+}

@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	"name"		"WuW PERP Content"
+	"version"	"1.0"
+	"up_date"	"28 Dev 2010"
+	"author_name"	"Yokko"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"Content."
+	
+	"GCFRequires"
+	{
+	}
+}
