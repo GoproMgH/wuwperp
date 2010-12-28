@@ -1,0 +1,89 @@
+
+// Soundscapes for Evocity2
+
+
+//----------------------------Evocity 2 Soundscapes ---------------------------------
+
+
+// play in mine tunnel
+
+"ep2_mines.tunnel"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/cave_outdoor1.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	"0.45, 0.55"
+		"pitch"		"98,102"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/rock1.wav"
+			"wave"	"ambient/materials/rock2.wav"
+			"wave"	"ambient/materials/rock3.wav"
+			"wave"	"ambient/materials/rock4.wav"
+			"wave"	"ambient/materials/rock5.wav"
+		}	
+	}
+
+	"playrandom"
+	{
+		"time"		"3, 15"
+		"volume"	"0.35,0.6"
+		"pitch"		"50,80"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/wood_creak1.wav"
+			"wave"	"ambient/materials/wood_creak2.wav"
+			"wave"	"ambient/materials/wood_creak3.wav"
+			"wave"	"ambient/materials/wood_creak4.wav"
+			"wave"	"ambient/materials/wood_creak5.wav"
+			"wave"	"ambient/materials/wood_creak6.wav"
+		}
+		
+	}
+
+}
+
+// play in open areas of evocity in forests
+
+
+"ep2_whiteforest.pre_battle"
+{
+	"dsp"	"1"
+	// forest light
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.light_forest"
+		"volume"	"1.0"
+	}
+}
+
+// Subwaystation tunnels
+"ep2_industrial.traintracks_tunnel"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/atmosphere/tunnel1.wav"
+		"pitch"		"100"
+	}
+
+}
+
+
+
+
