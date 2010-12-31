@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Lee/Mustang/Bullitt3"
+	"$bumpmap" "Models/Lee/Mustang/Bullitt3_n"
+	"$nocull" 1
+}

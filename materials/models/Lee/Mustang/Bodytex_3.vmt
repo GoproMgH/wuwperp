@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Lee/Mustang/Bodytex_3"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "Models/Lee/Mustang/liner_env"
+	"$nocull" 1
+}
