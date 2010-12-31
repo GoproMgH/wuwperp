@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Lee/Mustang/Carpet"
+	"$basetexture" "Models/Lee/Mustang/Carpet_n"
+	"$nocull" 1
+}
