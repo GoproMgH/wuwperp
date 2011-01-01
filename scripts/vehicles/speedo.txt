@@ -119,28 +119,28 @@
 
 	"gear"
 	{
-		"max_speed"		"0.2"
+		"max_speed"		"0.3"
 		"speed_approach_factor" "1.0"
 	}
 
 	"gear"
 	{
-		"max_speed"		"0.4"
+		"max_speed"		"0.5"
 		"speed_approach_factor" "0.07"
 	}
 	"gear"
 	{
-		"max_speed"		"0.6"
+		"max_speed"		"0.75"
 		"speed_approach_factor" "0.07"
 	}
 	"gear"
 	{
-		"max_speed"		"0.80"
+		"max_speed"		"0.90"
 		"speed_approach_factor" "0.035"
 	}
 	"gear"
 	{
-		"max_speed"		"0.85"
+		"max_speed"		"0.95"
 		"speed_approach_factor" "0.015"
 	}
 	"gear"
@@ -151,110 +151,110 @@
 	"state"
 	{
 		"name"		"SS_START_WATER"
-		"sound"		"golf_start_in_water"
+		"sound"		"atv_start_in_water"
 	}
 
 	"state"
 	{
 		"name"		"SS_START_IDLE"
-		"sound"		"golf_engine_start"
+		"sound"		"atv_engine_start"
 	}
 	"state"
 	{
 		"name"		"SS_SHUTDOWN_WATER"
-		"sound"		"golf_stall_in_water"
+		"sound"		"atv_stall_in_water"
 	}
 	"state"
 	{
 		"name"		"SS_IDLE"
-		"sound"		"golf_engine_idle"
+		"sound"		"atv_engine_idle"
 	}
 	"state"
 	{
 		"name"		"SS_REVERSE"
-		"sound"		"golf_reverse"
+		"sound"		"atv_reverse"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_0"
-		"sound"		"golf_rev"
+		"sound"		"atv_rev"
 		"min_time"	"0.75"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_0_RESUME"
-		"sound"		"golf_engine_idle"
+		"sound"		"atv_engine_idle"
 		"min_time"	"0.75"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_1"
-		"sound"		"golf_firstgear"
-		"min_time"	"1.25"
+		"sound"		"atv_firstgear"
+		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_1_RESUME"
-		"sound"		"golf_firstgear"
+		"sound"		"atv_firstgear_noshift"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_2"
-		"sound"		"golf_secondgear"
-		"min_time"	"1.25"
+		"sound"		"atv_secondgear"
+		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_2_RESUME"
-		"sound"		"golf_secondgear"
+		"sound"		"atv_secondgear_noshift"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_3"
-		"sound"		"golf_thirdgear"
+		"sound"		"atv_thirdgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_3_RESUME"
-		"sound"		"golf_thirdgear"
+		"sound"		"atv_thirdgear_noshift"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_4"
-		"sound"		"golf_fourthgear"
+		"sound"		"atv_fourthgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_4_RESUME"
-		"sound"		"golf_fourthgear"
+		"sound"		"atv_fourthgear_noshift"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_SLOWDOWN_HIGHSPEED"
-		"sound"		"golf_throttleoff_fastspeed"
+		"sound"		"atv_throttleoff_fastspeed"
 	}
 	"state"
 	{
 		"name"		"SS_SLOWDOWN"
-		"sound"		"golf_throttleoff_slowspeed"
+		"sound"		"atv_throttleoff_slowspeed"
 	}
 	"state"
 	{
 		"name"		"SS_TURBO"
-		"sound"		"golf_turbo_on"
+		"sound"		"atv_turbo_on"
 		"min_time"	"2.5"
 	}
 	"state"
 	{
 		"name"		"SS_SHUTDOWN"
-		"sound"		"golf_engine_stop"
+		"sound"		"atv_engine_stop"
 	}
 	"crashsound"
 	{
