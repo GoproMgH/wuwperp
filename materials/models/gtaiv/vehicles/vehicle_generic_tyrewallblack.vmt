@@ -4,12 +4,12 @@
 	"$bumpmap" "models\gtaiv\vehicles/vehicle_generic_tyrewall_normal"
 	"$phong" "1"
 	"$phongexponent" "20"
-	"$phongboost" ".3"	
+	"$phongboost" ".5"	
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "1"
 
 	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "1"	
+	"$rimlightboost" ".1"	
 }
