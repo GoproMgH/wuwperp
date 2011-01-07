@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/natalya/vehicles/trim_black"
+	"$envmap" "env_cubemap"
+    "$envmaptint"			"[.15 .15 .15]"
+    "$surfaceprop" "metal"
+    "$nocull" 1
+}
