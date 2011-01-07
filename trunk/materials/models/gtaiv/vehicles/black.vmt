@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\gtaiv\vehicles\/black"
+	"$baseTexture" "models\gtaiv\vehicles\black_flat"
 	"$bumpmap" "models\gtaiv\vehicles/vehicle_generic_carbon_normal"
 	"$phong" "1"
 	"$phongexponent" "20"
