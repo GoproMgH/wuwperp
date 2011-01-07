@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\gtaiv\vehicles\minivan/black"
+	"$baseTexture" "models\gtaiv\vehicles\pmp600\black"
 	"$bumpmap"	"models\gtaiv\vehicles\color_normal"
 	"$phong" "1"
 	"$phongexponent" "20"
