@@ -1,6 +1,6 @@
 "UnlitGeneric" 
 { 
-	"$basetexture"		"gui/vehicles/dodge"
+	"$basetexture"		"gui/vehicles/viper"
 	"$vertexcolor" 		1 
 	"$vertexalpha" 		1 
 	"$nolod" 			1
