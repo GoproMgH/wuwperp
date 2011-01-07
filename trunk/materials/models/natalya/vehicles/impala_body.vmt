@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/natalya/vehicles/impala_body"
+	"$envmap" "env_cubemap"
+    "$envmaptint"			"[.35 .35 .35]"
+    "$surfaceprop" "metal"
+    "$nocull"	1
+}

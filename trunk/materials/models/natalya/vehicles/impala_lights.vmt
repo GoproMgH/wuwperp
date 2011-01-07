@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/natalya/vehicles/impala_lights"
+	"$envmap" "env_cubemap"
+    "$envmaptint"			"[.55 .55 .55]"
+    "$surfaceprop" "glass"
+    "$selfillum"	1
+}
