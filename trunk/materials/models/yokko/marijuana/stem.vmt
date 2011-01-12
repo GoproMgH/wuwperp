@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/yokko/marijuana/stem"
+	"$bumpmap" "models\gtaiv\vehicles\vehicle_generic_metalpaint_normal"
+	"$surfaceprop" "Grass"
+}
