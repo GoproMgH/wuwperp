@@ -23,7 +23,7 @@
 		"gear"			"1.40"		// 3rd gear
 		"gear"			"1.2"		// 4th gear
 		"gear"			"0.9"		// 5th gear
-		"shiftuprpm"		"1500"
+		"shiftuprpm"		"500"
 		"shiftdownrpm"		"300"
 	
 		//"boost"
@@ -38,14 +38,14 @@
 	}
 	"steering"
 	{
-		"degreesSlow"		"10"	// steering cone at zero to slow speed
-		"degreesFast"		"7"	// steering cone at fast speed to max speed
-		"degreesBoost"		"3"	// steering cone at max boost speed (blend toward this after max speed)
+		"degreesSlow"		"30"	// steering cone at zero to slow speed
+		"degreesFast"		"13"	// steering cone at fast speed to max speed
+		"degreesBoost"		"10"	// steering cone at max boost speed (blend toward this after max speed)
 		"steeringExponent"	"1.4"	// steering function is linear, then raised to this power to be slower at the beginning of the curve, faster at the end
 		"slowcarspeed"		"15"
 		"fastcarspeed"		"30"
-		"slowSteeringRate"	"4.0"		
-		"fastSteeringRate"	"2.0"
+		"slowSteeringRate"	"6.0"		
+		"fastSteeringRate"	"4.0"
 		"steeringRestRateSlow"	"4.0"
 		"steeringRestRateFast"	"2.0"
 		"turnThrottleReduceSlow" "0.1"
@@ -67,7 +67,7 @@
 	{
 		"wheel"
 		{
-			"radius"	"12"
+			"radius"	"14"
 			"mass"		"50"
 			"inertia"	"2.5"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
@@ -94,7 +94,7 @@
 	{
 		"wheel"
 		{
-			"radius"	"12"
+			"radius"	"14"
 			"mass"		"50"
 			"inertia"	"2.5"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
