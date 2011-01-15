@@ -1,40 +1,40 @@
-// This is the Corvette C6
+// This is a test jeep type vehicle for the wasteland
 
 "vehicle"
 {
 	"wheelsperaxle"	"2"
 	"body"
 	{
-		"countertorquefactor"	"0.0"
-		"massCenterOverride"	"0 0 0"
+		"countertorquefactor"	"1.0"
+		"massCenterOverride"	"0 0 15"
 		"massoverride"		"1200"		// kg
-		"addgravity"		"1.0"
+		"addgravity"		"0.33"
 	}
 	"engine"
 	{
-		"horsepower"		"400"
-		"maxrpm"		"3150"
+		"horsepower"		"350"
+		"maxrpm"		"3000"
 		"maxspeed"		"75"		// mph
 		"maxReverseSpeed"	"25"		// mph
 		"autotransmission"	"1"
-		"axleratio"		"4.56"
-		"gear"			"2.16"		// 1st gear
+		"axleratio"		"3.00"
+		"gear"			"2.5"		// 1st gear
 		"gear"			"1.59"		// 2nd gear
-		"gear"			"1.17"		// 3rd gear
+		"gear"			"1.20"		// 3rd gear
 		"gear"			"1.0"		// 4th gear
-		"gear"			"0.84"		// 5th gear
-		"shiftuprpm"		"1600"
+		"gear"			"0.24"		// 5th gear
+		"shiftuprpm"		"1500"
 		"shiftdownrpm"		"300"
 	
 		//"boost"
 		//{
-//			"force"		"1.2"	// 1.5 car body mass * gravity * inches / second ^ 2
-		//	"duration"	"1.0"	// 1 second of boost
-		//	"delay"		"10"	// 15 seconds before you can use it again
-		//	"torqueboost"	"1"	// enable "sprint" mode of vehicle, not	force type booster			
-		//	"maxspeed"	"95"	// maximum turbo speed
+//			"force"		"1.1"	// 1.5 car body mass * gravity * inches / second ^ 2
+		//	"duration"	"2.0"	// 1 second of boost
+		//	"delay"		"3"	// 15 seconds before you can use it again
+		//	"torqueboost"	"1.1"	// enable "sprint" mode of vehicle, not	force type booster			
+		//	"maxspeed"	"125"	// maximum turbo speed
 		//	"force"		"1.5"	// use for value as a boost factor
-	//	}
+		//}
 	}
 	"steering"
 	{
@@ -42,14 +42,14 @@
 		"degreesFast"		"10"	// steering cone at fast speed to max speed
 		"degreesBoost"		"5"	// steering cone at max boost speed (blend toward this after max speed)
 		"steeringExponent"	"1.4"	// steering function is linear, then raised to this power to be slower at the beginning of the curve, faster at the end
-		"slowcarspeed"		"35"
-		"fastcarspeed"		"40"
+		"slowcarspeed"		"25"
+		"fastcarspeed"		"50"
 		"slowSteeringRate"	"4.0"		
 		"fastSteeringRate"	"2.0"
 		"steeringRestRateSlow"	"4.0"
 		"steeringRestRateFast"	"2.0"
 		"turnThrottleReduceSlow" "0.5"
-		"turnThrottleReduceFast" "1.0"
+		"turnThrottleReduceFast" "2.0"
 		"brakeSteeringRateFactor"	"6"
 		"throttleSteeringRestRateFactor"	"2"
 		"boostSteeringRestRateFactor"	"1.7"
@@ -61,28 +61,27 @@
 		"dustcloud"		"0"
 
 	}
-
 	// front axle
 	"axle"
 	{
 		"wheel"
 		{
-			"radius"	"15"
+			"radius"	"17.5"
 			"mass"		"100"
-			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"inertia"	"0.7"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
-			"rotdamping"	"0.0"
-			"material"	"jeeptire"
-			"skidmaterial"	"slidingrubbertire"
-			"brakematerial" "brakingrubbertire"
+			"rotdamping"	"0.2"
+			"material"	"enzotire"
+			"skidmaterial"	"enzotire"
+			"brakematerial" "enzotire"
 		}
 		"suspension"
 		{
-			"springConstant"		"150"
-			"springDamping"			"2.5"
-			"stabilizerConstant"		"200"
-			"springDampingCompression"	"1"
-			"maxBodyForce"			"250"
+			"springConstant"		"80"
+			"springDamping"			"4"
+			"stabilizerConstant"		"110"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"550"
 		}
 
 		"torquefactor"	"0.0"
@@ -94,22 +93,22 @@
 	{
 		"wheel"
 		{
-			"radius"	"16"
+			"radius"	"17.5"
 			"mass"		"100"
-			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"inertia"	"0.7"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
-			"rotdamping"	"0.0"
-			"material"	"jeeptire"
-			"skidmaterial"	"slidingrubbertire"
-			"brakematerial" "brakingrubbertire"
+			"rotdamping"	"0.5"
+			"material"	"enzotire"
+			"skidmaterial"	"enzotire"
+			"brakematerial" "enzotire"
 		}
 		"suspension"
 		{
-			"springConstant"		"150"
-			"springDamping"			"2.5"
-			"stabilizerConstant"		"200"
-			"springDampingCompression"	"1"
-			"maxBodyForce"			"1950"
+			"springConstant"		"110"
+			"springDamping"			"4"
+			"stabilizerConstant"		"110"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"550"
 		}
 		"torquefactor"	"1.0"
 		"brakefactor"	"0.5"
@@ -122,28 +121,28 @@
 
 	"gear"
 	{
-		"max_speed"		"0.3"
+		"max_speed"		"0.2"
 		"speed_approach_factor" "1.0"
 	}
 
 	"gear"
 	{
-		"max_speed"		"0.5"
+		"max_speed"		"0.4"
 		"speed_approach_factor" "0.07"
 	}
 	"gear"
 	{
-		"max_speed"		"0.75"
+		"max_speed"		"0.6"
 		"speed_approach_factor" "0.07"
 	}
 	"gear"
 	{
-		"max_speed"		"0.90"
+		"max_speed"		"0.80"
 		"speed_approach_factor" "0.035"
 	}
 	"gear"
 	{
-		"max_speed"		"0.95"
+		"max_speed"		"0.85"
 		"speed_approach_factor" "0.015"
 	}
 	"gear"
@@ -154,127 +153,127 @@
 	"state"
 	{
 		"name"		"SS_START_WATER"
-		"sound"		"Caterham_start_in_water"
+		"sound"		"Shelby_start_in_water"
 	}
 
 	"state"
 	{
 		"name"		"SS_START_IDLE"
-		"sound"		"Caterham_engine_start"
+		"sound"		"Shelby_engine_start"
 	}
 	"state"
 	{
 		"name"		"SS_SHUTDOWN_WATER"
-		"sound"		"Caterham_stall_in_water"
+		"sound"		"Shelby_stall_in_water"
 	}
 	"state"
 	{
 		"name"		"SS_IDLE"
-		"sound"		"Caterham_engine_idle"
+		"sound"		"Shelby_engine_idle"
 	}
 	"state"
 	{
 		"name"		"SS_REVERSE"
-		"sound"		"Caterham_reverse"
+		"sound"		"Shelby_reverse"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_0"
-		"sound"		"Caterham_rev"
+		"sound"		"Shelby_rev"
 		"min_time"	"0.75"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_0_RESUME"
-		"sound"		"Caterham_engine_idle"
+		"sound"		"Shelby_engine_idle"
 		"min_time"	"0.75"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_1"
-		"sound"		"Caterham_firstgear"
-		"min_time"	"0.5"
+		"sound"		"Shelby_firstgear"
+		"min_time"	"1.25"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_1_RESUME"
-		"sound"		"Caterham_firstgear_noshift"
+		"sound"		"Shelby_firstgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_2"
-		"sound"		"Caterham_secondgear"
-		"min_time"	"0.5"
+		"sound"		"Shelby_secondgear"
+		"min_time"	"1.25"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_2_RESUME"
-		"sound"		"Caterham_secondgear_noshift"
+		"sound"		"Shelby_secondgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_3"
-		"sound"		"Caterham_thirdgear"
+		"sound"		"Shelby_thirdgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_3_RESUME"
-		"sound"		"Caterham_thirdgear_noshift"
+		"sound"		"Shelby_thirdgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_4"
-		"sound"		"Caterham_fourthgear"
+		"sound"		"Shelby_fourthgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_GEAR_4_RESUME"
-		"sound"		"Caterham_fourthgear_noshift"
+		"sound"		"Shelby_fourthgear"
 		"min_time"	"0.5"
 	}
 	"state"
 	{
 		"name"		"SS_SLOWDOWN_HIGHSPEED"
-		"sound"		"Caterham_throttleoff_fastspeed"
+		"sound"		"Shelby_throttleoff_fastspeed"
 	}
 	"state"
 	{
 		"name"		"SS_SLOWDOWN"
-		"sound"		"Caterham_throttleoff_slowspeed"
+		"sound"		"Shelby_throttleoff_slowspeed"
 	}
 	"state"
 	{
 		"name"		"SS_TURBO"
-		"sound"		"Caterham_turbo_on"
+		"sound"		"Shelby_turbo_on"
 		"min_time"	"2.5"
 	}
 	"state"
 	{
 		"name"		"SS_SHUTDOWN"
-		"sound"		"Caterham_engine_stop"
+		"sound"		"Shelby_engine_stop"
 	}
 	"crashsound"
 	{
 		"min_speed"			"350"
 		"min_speed_change"	"250"
-		"sound"				"Caterham_impact_medium"
+		"sound"				"ATV_impact_medium"
 		"gear_limit"		"1"
 	}
 	"crashsound"
 	{
 		"min_speed"			"450"
 		"min_speed_change"	"350"
-		"sound"				"Caterham_impact_heavy"
+		"sound"				"ATV_impact_heavy"
 	}
 
 	
-	"skid_lowfriction"		"Caterham_skid_lowfriction"
-	"skid_normalfriction"	"Caterham_skid_normalfriction"
-	"skid_highfriction"		"Caterham_skid_highfriction"
+	"skid_lowfriction"		"ATV_skid_lowfriction"
+	"skid_normalfriction"	"ATV_skid_normalfriction"
+	"skid_highfriction"		"ATV_skid_highfriction"
 }
