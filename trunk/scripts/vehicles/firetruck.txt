@@ -15,7 +15,7 @@
 		"horsepower"		"1000"
 		"maxrpm"		"3000"
 		"maxspeed"		"45"		// mph
-		"maxReverseSpeed"	"5"		// mph
+		"maxReverseSpeed"	"10"		// mph
 		"autotransmission"	"1"
 		"axleratio"		"4.56"
 		"gear"			"2.86"		// 1st gear
@@ -38,8 +38,8 @@
 	}
 	"steering"
 	{
-		"degreesSlow"		"25"	// steering cone at zero to slow speed
-		"degreesFast"		"12"	// steering cone at fast speed to max speed
+		"degreesSlow"		"30"	// steering cone at zero to slow speed
+		"degreesFast"		"16"	// steering cone at fast speed to max speed
 		"degreesBoost"		"4"	// steering cone at max boost speed (blend toward this after max speed)
 		"steeringExponent"	"1.4"	// steering function is linear, then raised to this power to be slower at the beginning of the curve, faster at the end
 		"slowcarspeed"		"20"
@@ -67,7 +67,7 @@
 	{
 		"wheel"
 		{
-			"radius"	"20"
+			"radius"	"25"
 			"mass"		"550"
 			"inertia"	"0.6"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
@@ -94,7 +94,7 @@
 	{
 		"wheel"
 		{
-			"radius"	"20"
+			"radius"	"25"
 			"mass"		"600"
 			"inertia"	"5.6"		// steady the car (fixes the oscillation of the axles about z)
 			"damping"	"0"
