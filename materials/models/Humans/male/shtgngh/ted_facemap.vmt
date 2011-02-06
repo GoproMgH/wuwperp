@@ -1,0 +1,6 @@
+"JellyFish"
+{
+	"$basetexture" "models/Humans/Male/shtgngy/ted_facemap"
+	"$gradienttexture" "models/Humans/Male/shtgngh/gradient"
+	"$model" 1
+}

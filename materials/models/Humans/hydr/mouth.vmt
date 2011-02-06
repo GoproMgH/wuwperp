@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Humans/hydr/mouth"
+	"$gradienttexture" "models/hydra/gradient"
+	"$translucent" 1
+	"$model" 1
+}
