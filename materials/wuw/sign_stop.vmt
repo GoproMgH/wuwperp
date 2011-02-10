@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "wuw/sign_stop"
+	"$translucent"		1
+	"$vertexalpha" 		1
+	"$nolod" 			1
+}
