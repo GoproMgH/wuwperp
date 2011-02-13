@@ -1,7 +1,0 @@
-"eyes"
-{
-	"$basetexture" "models/Humans/hydr/eyeball_l"
-	"$iris" "models/Humans/hydr/pupil_l"
-	"$gradienttexture" "models/Humans/Male/shtgngy/gradient"
-	"$model" 1
-}

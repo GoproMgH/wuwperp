@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "sgtsicktextures/evocreds"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .2]"
-	"$surfaceprop" "Metal"
-}
