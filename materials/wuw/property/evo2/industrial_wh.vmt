@@ -1,0 +1,8 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture" "wuw/property/evo2/industrial_wh"
+	"$vertexcolor" 1 
+	"$vertexalpha" 1 
+	"$nolod" 1
+	"$ignorez" 1
+} 
